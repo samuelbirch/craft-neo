@@ -1,5 +1,19 @@
 # Changelog
 
+## 2.3.5 - 2019-05-24
+### Fixed
+- Fix #210 - check if viewing a shared draft so it can retrieve the correct data
+
+## 2.3.4 - 2019-05-22
+### Fixed
+- Fix #214 - added in type filtering function that was missing for live preview
+- Fix #213 - get enabled blocks only instead of any status blocks for live preview
+
+## 2.3.3 - 2019-05-04
+### Fixed
+- Fix PostgreSQL error when saving new block types - thanks @ttempleton
+- Fixed issue where groups were duplicated when changing min/max blocks
+
 ## 2.3.2 - 2019-04-24
 ### Fixed
 - Ensure field layout IDs are set when setting a field's block types - Thanks @ttempleton
